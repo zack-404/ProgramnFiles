@@ -1,0 +1,23 @@
+package class11;
+
+import java.util.Scanner;
+
+public class e017 {//Linear search
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		sol1();
+	}
+	
+	static void sol1() {
+		Scanner sc=new Scanner(System.in);
+		String ln1=sc.nextLine(),arr1[]=ln1.split(" "),a=sc.next();
+		int b=-1;
+		for(int i=0;i<arr1.length;i++) {
+			if(arr1[i].equals(a))
+				b=i;
+		}
+		System.out.println(b);
+	}
+
+}

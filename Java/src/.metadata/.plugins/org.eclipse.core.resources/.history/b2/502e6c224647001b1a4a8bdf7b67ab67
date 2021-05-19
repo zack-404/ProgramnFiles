@@ -1,0 +1,44 @@
+package apcs2020class;
+
+import java.lang.FdLibm.Pow;
+import java.util.Scanner;
+
+public class class6 {
+	public static void main(String[] args) {
+		//Transformation();
+		//Farenheit_to_Celcius();
+		//Index();
+		Odd_Even();
+	}
+	static void Transformation() {
+		long a=123;
+		int c=12345;
+		a=c;
+		float b=22;
+		System.out.println(Float.MIN_VALUE);
+		System.out.println(Double.MIN_VALUE);
+		System.out.println(Long.MAX_VALUE);
+		System.out.println(Integer.MAX_VALUE);
+		System.out.println(Short.MAX_VALUE);
+		System.out.println(Byte.MAX_VALUE);
+		System.out.println(3+4+"str");
+		System.out.println("str"+3+4);
+	}
+	static void Farenheit_to_Celcius() {
+		double c,f;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("please input Celius.");
+		c=sc.nextDouble();
+		f=9/5*c+32;
+		System.out.printf("It's %.2fFarenheit.",f);
+	}
+	static void Index() {
+		//System.out.println(Pow(2,3));
+	}
+	static void Odd_Even() {
+		Scanner sc=new Scanner(System.in);
+		int i=sc.nextInt();
+		System.out.println("Please input a number.");
+		System.out.printf("Your number is %s",i%2==0?"even":"odd");
+	}
+}

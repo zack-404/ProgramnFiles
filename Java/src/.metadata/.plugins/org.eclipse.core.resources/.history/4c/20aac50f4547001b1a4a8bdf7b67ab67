@@ -1,0 +1,32 @@
+package apcs2020class;
+
+import java.util.Scanner;
+
+public class class6 {
+	public static void main(String[] args) {
+		Transformation();
+		//Farenheit_to_Celcius();
+	}
+	static void Transformation() {
+		long a=123;
+		int c=12345;
+		a=c;
+		float b=22;
+		System.out.println(Float.MIN_VALUE);
+		System.out.println(Double.MIN_VALUE);
+		System.out.println(Long.MAX_VALUE);
+		System.out.println(Integer.MAX_VALUE);
+		System.out.println(Short.MAX_VALUE);
+		System.out.println(Byte.MAX_VALUE);
+		System.out.println(3+4+"str");
+		System.out.println("str"+3+4);
+	}
+	static void Farenheit_to_Celcius() {
+		double c,f;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("please input Celius.");
+		c=sc.nextDouble();
+		f=9/5*c+32;
+		System.out.printf("It's %.2fFarenheit.",f);
+	}
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\s0610\OneDrive\文件\programn\java\講義\範例\範例專案\Lesson11_Stack"/>
+			<item value="C:\Users\s0610\OneDrive\文件\programn\java\講義\範例\範例專案\Lesson11_List"/>
+			<item value="C:\Users\s0610\OneDrive\文件\programn\java\講義\範例\題目專案\E014"/>
+			<item value="C:\Users\s0610\OneDrive\文件\programn\java\講義\範例\範例專案\Lesson11_Queue"/>
+			<item value="C:\Users\s0610\OneDrive\文件\programn\java\First\src\javaGrammar"/>
+			<item value="C:\Users\s0610\OneDrive\文件\programn\java\programnFile\src\vocabularyCard"/>
+			<item value="C:\Users\s0610\OneDrive\文件\programn\java\programnFile\src\zerojudge"/>
+			<item value="C:\Users\s0610\OneDrive\文件\programn\java\programnFile\src\apcs_test"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,37 @@
+package e__;
+
+import java.util.Scanner;
+
+public class e975 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		love();
+	}
+	
+	static void sol1() {
+		Scanner sc=new Scanner(System.in);
+		String ln1=sc.next();
+		char arr1[]=ln1.toCharArray();
+		
+	}
+
+	static void love() {
+		char arr1[]= {'l','o','v','e'};
+		int arr2[]=new int[4];
+		for(int i=0;i<4;i++) {
+			arr2[i]=arr1[i];
+			System.out.println(arr2[i]);
+		}
+	}
+	
+	static void Love() {
+		char arr1[]= {'L','o','v','e'};
+		int arr2[]=new int[4];
+		for(int i=0;i<4;i++) {
+			arr2[i]=arr1[i];
+			System.out.println(arr2[i]);
+		}
+	}
+	
+}

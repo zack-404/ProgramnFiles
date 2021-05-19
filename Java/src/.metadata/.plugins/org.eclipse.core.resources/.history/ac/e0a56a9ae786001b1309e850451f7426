@@ -1,0 +1,31 @@
+package apcs;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class c294_2016_10_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		sol1();
+	}
+	
+	static void sol1() {
+		Scanner sc=new Scanner(System.in);
+		int arr1[]=new int[3];
+		for(int i=0;i<3;i++)
+			arr1[i]=sc.nextInt();
+		Arrays.sort(arr1);
+		int a=arr1[0],b=arr1[1],c=arr1[2];
+		if(a+b>c)
+			System.out.println("No");
+		else if(a*a+b*b<c*c)
+			System.out.println("Obtuse");
+		else if(a*a+b*b>c*c)
+			System.out.println("Acute");
+		else
+			System.out.println("Right");
+		
+	}
+
+}
